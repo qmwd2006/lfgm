@@ -81,7 +81,7 @@ public class ArrayGameField extends AbstractListenerHolder<IModelChangeListener>
 			}
 		}
 		this.cells = nextTurncells;
-		Activator.getDefault().logInfo("Turn " + turns);
+		Activator.logInfo("Turn " + turns);
 
 		fireEvent();
 		
